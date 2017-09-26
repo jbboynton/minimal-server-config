@@ -1,0 +1,12 @@
+[user]
+  name = James Boynton
+  email = james@xzito.com
+[core]
+  editor = vim
+[alias]
+  sla = log --oneline --decorate --graph --all
+  co = checkout
+[fetch]
+  prune = true
+[merge]
+  ff = only

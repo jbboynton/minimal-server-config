@@ -1,0 +1,7 @@
+function v {
+  if [[ $# > 0 ]]; then
+    /usr/bin/vim "$@"
+  else
+    /usr/bin/vim .
+  fi
+}
